@@ -1,0 +1,46 @@
+public class DaySwitch {
+    public static void main(String[] args) {
+        int month=5;
+
+        switch (month) {
+            case 1:
+                System.out.println("month 1");
+                break;
+            case 2:
+                System.out.println("month2");
+                break;
+            case 3:
+                System.out.println("month3");
+                break;
+            case 4:
+                System.out.println("month4");
+                break;
+            case 5:
+                System.out.println("month5");
+                break;
+            case 6:
+                System.out.println("month6");
+                break;
+            case 7:
+               System.out.println("month7");
+               break;
+            case 8:
+               System.out.println("month8");
+               break;
+            case 9:
+               System.out.println("month9");
+               break;
+            case 10:
+               System.out.println("month10");
+               break;
+            case 11:
+               System.out.println("month11");
+               break;
+            case 12:
+               System.out.println("month12");
+               break;
+            default:
+                System.out.println("valid month");
+        }
+    }
+}
