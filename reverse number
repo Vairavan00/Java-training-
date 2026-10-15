@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      System.out.println("Hello, World!");
+
+      Scanner scan=new Scanner(System.in); 
+     System.out.println("Enter a number :");
+     int n=scan.nextInt();
+     int a=0;
+     for(int i=n;i>0;i=i/10)
+     {
+      a=a*10+i%10;
+      
+     }
+     System.out.println("reverse the integer:" + a);
+
+
+
+     
+    }}
