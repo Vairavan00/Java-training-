@@ -1,0 +1,50 @@
+  import java.util.*;
+
+public class Main {
+
+   static void add(int a,int b)
+   {
+    System.out.println("add = " + (a + b));
+   }
+   static void sub(int a,int b)
+   {
+    System.out.println("sub = " + (a - b));
+   }
+   static void multiple(int a,int b)
+   {
+    System.out.println("multiple = " + (a*b));
+   }
+   static void divi(int a,int b)
+   {
+    if(b!=0)
+    {
+  System.out.println("divi = " + (a/(double)b));
+    }
+    else
+    {
+       System.out.println("undefind");
+    }
+   }
+   static void pen(int a,int b)
+   {
+    System.out.println("pen = " + (a % b));
+   }
+
+    public static void main(String[] args) {
+      System.out.println("Hello, World!");
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a number a:");
+          int a = scan.nextInt();
+      System.out.println("Enter a number b :");
+      int b = scan.nextInt();
+
+      add(a,b);
+      sub(a,b);
+      multiple(a,b);
+      divi(a,b);
+      pen(a,b);
+    }
+}
+      
+
+       
